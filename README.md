@@ -5,15 +5,22 @@
     - download the zip file extract it
     - cd in extracted folder
     - make a virtual environment
+    
         - python -m venv venv
+    
     - activate venv
+    
         - source venv/bin/activate
+    
     - install dependencies
+    
         - python -r install requirements.txt
 
     - migrate database
-         - python manage.py makemigartions
-         - python manage.py migrate
+        
+        - python manage.py makemigartions
+        
+        - python manage.py migrate
 
     - change data base credentials in settings.py in the folder Assignment
      
@@ -40,3 +47,7 @@ create a superuser to make login for the first time:
 after making superuser you can run the project
 
     - python manage.py runserver
+    
+redirect to:
+    - localhost:8000/admin
+    
